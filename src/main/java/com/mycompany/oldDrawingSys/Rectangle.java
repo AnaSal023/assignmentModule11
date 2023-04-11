@@ -8,9 +8,15 @@ package com.mycompany.oldDrawingSys;
  *
  * @author MoaathAlrajab
  */
-public class Rectangle {
+public class Rectangle extends Shape{
+    @Override
      public void draw(int x, int y, int width, int height) {
         System.out.println("Rectangle with coordinate top-left corner (" + x + ";" + y + "), width: " + width
                 + ", height: " + height);
+    }
+
+    @Override
+    public void draw(int x1, int y1, int r) {
+       
     }
 }
